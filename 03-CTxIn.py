@@ -54,8 +54,7 @@ if len(vtx) > 2 :
 			print "COutPoint n: ", vip.n
 			print "COutPoint is_null: ", vip.is_null()
 			## and finally it includes a signature
-			b = vi.scriptSig
-			print "scriptSig : ", bitcoin.core.b2lx(b)
+			print "scriptSig : ", bitcoin.core.b2lx(vi.scriptSig)
 			print '----------'
 else :
 	print "Sorry this block only has a coinbase transaction."
