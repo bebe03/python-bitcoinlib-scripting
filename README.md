@@ -8,4 +8,6 @@ The objects we will be looking at are:
 
 *CBlock, CTransaction, CTxIn, COutPoint, CTxOut*
 
+These scripts isolate each of the objects and then display the objects properties.
+
 Contributions to this repo are welcome!
