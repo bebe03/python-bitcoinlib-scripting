@@ -50,11 +50,13 @@ if len(vtx) > 2 :
 			print "nSequence : ", vi.nSequence
 			## the CTxIn Object also contains one or many COutPoint Objects
 			vip = vi.prevout
-			print "COutPoint Hash: ", bitcoin.core.b2lx(vip.hash)
+			print "COutPoint Hash: "
+			print bitcoin.core.b2lx(vip.hash)
 			print "COutPoint n: ", vip.n
 			print "COutPoint is_null: ", vip.is_null()
 			## and finally it includes a signature
-			print "scriptSig : ", bitcoin.core.b2lx(vi.scriptSig)
+			print "scriptSig : "
+			print bitcoin.core.b2lx(vi.scriptSig)
 			print '----------'
 else :
 	print "Sorry this block only has a coinbase transaction."
