@@ -1,4 +1,3 @@
-```
 ### Open Provenance February 2016 - https://myveryown.org
 ### Bitcoin Blockchain Information using python-bitcoinlib
 ### CBlock Object and Properties
@@ -37,4 +36,3 @@ print ' '
 print "----------------------------------------------------------------"
 print ' ' 
 exit()
-```
