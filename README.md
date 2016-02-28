@@ -32,7 +32,8 @@ If you would like to dump the output of an Object example script to a text file 
 
 ``` python 01-CBlock.py > 01-CBlock.txt ```
 
-For more detailed information on python-bitcoinlib please see https://media.readthedocs.org/pdf/python-bitcoinlib/latest/python-bitcoinlib.pdf
+For more detailed information on python-bitcoinlib please see
+https://media.readthedocs.org/pdf/python-bitcoinlib/latest/python-bitcoinlib.pdf
 
 #### Donations & Support
 
