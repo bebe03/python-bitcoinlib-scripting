@@ -51,7 +51,8 @@ if len(vtx) > 2 :
 			print "is_valid: ", vo.is_valid()
 			print "COutPoint Hash :"
 			print bitcoin.core.b2x(vo.GetHash())
-			print "scriptPubKey: ", bitcoin.core.b2x(vo.scriptPubKey)
+			print "scriptPubKey: "
+			print bitcoin.core.b2x(vo.scriptPubKey)
 			print '--------'
 			vov = vov + vo.nValue
 		print " " 
