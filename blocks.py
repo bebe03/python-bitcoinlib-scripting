@@ -23,13 +23,13 @@ print "Block nNonce: ", block_info.nNonce
 print "Block nBits: ", block_info.nBits
 print "Block nTime: ", block_info.nTime
 print "No of Transactions: ", len(block_info.vtx)
-print ' ' 
+print " "
 print "Block Hash: "
 print bitcoin.core.b2lx(block_info.GetHash())
-print ' ' 
+print " " 
 print "Previous Block Hash: "
 print bitcoin.core.b2lx(block_info.hashPrevBlock)
-print ' ' 
+print " " 
 print "Merkel Root: "
 print bitcoin.core.b2lx(block_info.hashMerkleRoot)
 print ' ' 
