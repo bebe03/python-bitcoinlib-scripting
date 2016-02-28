@@ -26,5 +26,5 @@ else :
     else :
         ## Send the amount specified to the address supplied
         myproxy.sendtoaddress(address, satoshis)
-        print "Coins have been sent, Have a nice day!"
+        print "Coins have been sent, have a nice day!"
 exit()
