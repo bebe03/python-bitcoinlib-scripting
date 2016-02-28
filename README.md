@@ -1,14 +1,15 @@
 ### Python-bitcoinlib Scripting Examples
 
-In this repo you will find some basic scripts that utilise Peter Todds python-bitcoinlib and show you how to access the properties of the objects
+In this repo you will find some basic scripts that utilise Peter Todds python-bitcoinlib.
 
 We have found basic examples hard to find online, so we thought we would make a few to help others to learn
 
-The objects we will be looking at are:
+First we show how to query the wallet to obtain its balance then how to send coins in 00-send.py
+
+Second we show you how to access the following objects:
 
 *CBlock, CTransaction, CTxIn, COutPoint and CTxOut*
 
-The example scripts in this repo isolate each of the objects and then display the objects properties.
 
 #### Donations & Support
 
