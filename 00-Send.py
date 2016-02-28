@@ -22,7 +22,7 @@ else :
     ## Request amount to send from the user
     satoshis = raw_input("Please enter the number of satoshis to send: ")
     if len(satoshis) == 0 :
-        print "We can not send zero satoshis, please enter only numbers, have a nice day!"
+        print "We can not send zero satoshis, have a nice day!"
     else :
         ## Send the amount specified to the address supplied
         myproxy.sendtoaddress(address, satoshis)
