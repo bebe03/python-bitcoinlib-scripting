@@ -4,7 +4,6 @@
 
 ## Import the modules required and setup a connection to bitcoin
 import bitcoin
-#bitcoin.SelectParams("testnet")
 
 ## Create a proxy object and connect to the bitcoin.rpc 
 import bitcoin.rpc
