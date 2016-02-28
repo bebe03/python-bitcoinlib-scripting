@@ -47,13 +47,13 @@ if len(vtx) > 2 :
 			## vo is a CTxOut Object
 			vo = vout[o]
 			## From this Object we can get info
-			vov = vov + vo.nValue
 			print "Value: ", vo.nValue
 			print "is_valid: ", vo.is_valid()
 			print "COutPoint Hash :"
 			print bitcoin.core.b2x(vo.GetHash())
 			print "scriptPubKey: ", bitcoin.core.b2x(vo.scriptPubKey)
 			print '--------'
+			vov = vov + vo.nValue
 		print " " 
 		print "Total Output Value: ", vov
 else :
