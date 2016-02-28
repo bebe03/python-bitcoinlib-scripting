@@ -26,9 +26,9 @@ python setup.py install
 
 To run the scripts in this repo please use the following syntax:
 
-``` python 00-bal.py ```
+``` python 00-send.py ```
 
-If you would like to dump the output of the examples scripts to a text file then use the following syntax
+If you would like to dump the output of an Object example script to a text file then use the following syntax
 
 ``` python 01-CBlock.py > 01-CBlock.txt ```
 
