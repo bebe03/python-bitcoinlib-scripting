@@ -14,7 +14,7 @@ myproxy = bitcoin.rpc.Proxy()
 block_info = myproxy.getblock(myproxy.getblockhash(myproxy.getblockcount()))
 
 ## Print the details to the screen.
-print "################################################################"
+print "----------------------------------------------------------------"
 print "Bitcoin Block Information: Block Height ", myproxy.getblockcount()
 print "----------------------------------------------------------------"
 print "Block Difficulty: ", block_info.difficulty
