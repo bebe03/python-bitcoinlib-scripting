@@ -23,7 +23,7 @@ print "----------------------------------------------------------------"
 ## We assume there could be many transactions in a block and loop through them
 ## we would loop all transaction with 'for x in range (0, len(vtx)) :'
 ## but in this example we will show the first or "coinbase" transaction details.
-## 
+
 if len(vtx) > 0 :
   for x in range (0, 1) :
 
