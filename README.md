@@ -10,6 +10,27 @@ Second we show you how to access the following objects:
 
 *CBlock, CTransaction, CTxIn, COutPoint and CTxOut*
 
+Assuming you have complied and installed bitcoin, use the following commands to download and install the latest python-bitcoinlib from Peter Todds repository on Github
+
+```
+git clone https://github.com/petertodd/python-bitcoinlib
+```
+
+Then run the following commands as root to install
+
+```
+cd python-bitcoinlib
+python setup.py build
+python setup.py install
+```
+
+To run the scripts in this repo please use the following syntax:
+
+``` python 00-bal.py ```
+
+If you would like to dump the output of the examples scripts to a text file then use the following syntax
+
+``` python 01-CBlock.py > 01-CBlock.txt ```
 
 #### Donations & Support
 
