@@ -6,7 +6,7 @@ We have found basic examples hard to find online, so we thought we would make a 
 
 The objects we will be looking at are:
 
-*CBlock, CTransaction, CTxIn, COutPoint, CTxOut*
+*CBlock, CTransaction, CTxIn, COutPoint and CTxOut*
 
 The example scripts in this repo isolate each of the objects and then display the objects properties.
 
