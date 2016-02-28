@@ -12,6 +12,8 @@ These scripts isolate each of the objects and then display the objects propertie
 
 #### Donations & Support
 
+Open Provenance is open source!
+
 If you would like to donate to the Open Provenance Project our official donation address is: 1opDUZQ9nsL1LJALBdV1dvqSMtcvNj9EC
 
 If you would like to give support with your abilities please get in touch via Twitter @OpenProvenance.
